@@ -13,23 +13,30 @@
 
 </head>
 <body>
-    <header>
-            <div class="logo">
-                <h3>Portafolio</h3>
-            </div>
-            <nav id="nav" class="">
-                <ul>
-                    <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
-                    <li><a href="#mis-servicios" onclick="seleccionar(this)">Servicios</a></li>
-                    <li><a href="#portafolio" onclick="seleccionar(this)">proyectos</a></li>
-                    <li><a href="#contacto" onclick="seleccionar(this)">Contactos</a></li>
-                </ul>
-            </nav>
-            <div id="icono-nav" onclick="responsiveMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-    </header>
+     <!-- Sección inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Portafolio</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" onclick = "seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick = "seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#mis-servicios" onclick = "seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio" onclick = "seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick = "seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <img src="menu.png">
+                    </div>
+                    <!-- Iconos de las redes sociales -->
+
+                </div>
+            </header>
     <div class="text" id="inicio">
         <h1>
             Bienvenidos a mi portafolio soy Asdrith Contreras
