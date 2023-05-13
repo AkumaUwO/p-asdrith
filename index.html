@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="imagen/png" href="Capturalogo.PNG">
+
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <h3>Portafolio</h3>
+            </div>
+            <nav id="nav" class="">
+                <ul>
+                    <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
+                    <li><a href="#mis-servicios" onclick="seleccionar(this)">Servicios</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar(this)">proyectos</a></li>
+                    <li><a href="#contacto" onclick="seleccionar(this)">Contactos</a></li>
+                </ul>
+            </nav>
+            <div id="icono-nav" onclick="responsiveMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    </header>
+    <div class="text" id="inicio">
+        <h1>
+            Bienvenidos a mi portafolio soy Asdrith Contreras
+        </h1>
+        <span class="subtitle">
+            Soy desarrolladora web aqui conseguiran informacion sobre mi 
+            y algunos de mis proyectos. 
+        </span> <br>
+        <button>
+            Portafolio
+        </button>
+    </div>
+
+    <!--Section articulos-->
+    <section>
+        <div id="sobremi">
+          <div class="sobremi">
+            <h2>Sobre mi</h2><br>
+            <p>Hola soy Asdrith contreras desarroladora web soy una persona 
+            responsable con mis objetivos a la hora de un problema,
+            investigo para dar solucion.tengo experiencia en tecnologias en la 
+            parte de los CMS conozco a wordpress conozco una amplia variedad de plugins
+            y templates, tambien tengo experiencias con tiendas online utilizando wordpress
+            y woocommerce.asi como tambien me gusta el desarrollo de videojuegos,
+            actualmente hago proyectos orientados a estos campos con el fin de 
+            mejorar como desarrolladora y seguir haciendo lo que me apasiona.
+            </p>
+          </div>
+        </div>
+        <h1>Mis servicios</h1>
+        <div class="mis-servicios" id="mis-servicios">
+            <div class="service">
+                <div class="service-img">
+                    <img src="Capturaprocss.PNG">
+                </div>
+                <div class="service-descripcion">
+                    <h3>Diseño de sitios web</h3>
+                    <ul>
+                        <li>Front-end</li>
+                        <li>Back-end</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Puedo diseñar un sitio que se adapte a tus necesidades,
+                        este muy bien optimizado y sea agradable a la vista</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img src="321968879_579830940140042_4189048828604392132_n.jpg">
+                </div>
+                <div class="service-descripcion">
+                    <h3>Diseño de flyers</h3>
+                    <ul>
+                        <li>Negocios</li>
+                        <li>Eventos</li>
+                        <li>Publucidad</li>
+                    </ul>
+                    <p>Diseño de flyers ideales para hacer publicidad a tu negocio o evento.
+                        Flyers llamativos para que el mundo se entere</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <h2>img</h2>
+                </div>
+                <div class="service-descripcion">
+                    <h3>Diseño de tarjetas de presentacion</h3>
+                    <ul>
+                        <li>Personal</li>
+                        <li>Negocios</li>
+                    </ul>
+                    <p>Diseño tu tarjeta de presentacion personal o de negocios.
+                        Haz que el mundo te conozca con una elegante tarjeta de 
+                        presentación.</p>
+                </div>
+            </div>
+        </div>
+        <div class="caja-padre" id="skills">
+            <div class="contenedor">
+                <h2>Mis habilidades</h2>
+                <div class="skills">
+                    <div class="detalles">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="menu">
+                        <div id="html-menu"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="detalles">
+                        <span>Css</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="menu">
+                        <div id="css-menu"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="detalles">
+                        <span>Javascript</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="menu">
+                        <div id="js-menu"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="detalles">
+                        <span>Photoshop</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="menu">
+                        <div id="photo-menu"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="detalles">
+                        <span>Wordpress</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="menu">
+                        <div id="word-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portafolio" class="portafolio">
+            <div class="contenido-seccion">
+                <h2>Portafolio</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="Capturapagcine.PNG">
+                        <div class="overlay">
+                            <h3>Diseño web</h3>
+                            <p>Pagina de cine</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="Capturacalculadora.PNG">
+                        <div class="overlay">
+                            <h3>Diseño web</h3>
+                            <p>Calculadora</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="321968879_579830940140042_4189048828604392132_n.jpg">
+                        <div class="overlay">
+                            <h3>Diseño creativo</h3>
+                            <p>Flyers</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="Capturapagcine.PNG">
+                        <div class="overlay">
+                            <h3>Diseño web</h3>
+                            <p>Pagina de cine</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="Capturapagcine.PNG">
+                        <div class="overlay">
+                            <h3>Diseño web</h3>
+                            <p>Pagina de cine</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="Capturapagcine.PNG">
+                        <div class="overlay">
+                            <h3>Diseño web</h3>
+                            <p>Pagina de cine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>Contacto</h2>
+                <div class="fila">
+                    <div class="col">
+                        <input type="text" placeholder="Tu Nombre">
+                        <input type="text" placeholder="Numero telefonico">
+                        <input type="text" placeholder="Correo electronico">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <h3>Contactame</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="info">
+                            <h4>Sigueme</h4>
+                            <div class="redes">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Todos los derechos reservados -- Asdrith Contreras 2023 ©</p>
+        <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
